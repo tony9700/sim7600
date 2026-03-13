@@ -11,9 +11,9 @@ esp32:
     type: arduino
     
 external_components:
-  - source:
-      type: local
-      path: components
+  - source: github://tony9700/sim7600
+    components: [sim7600]
+    refresh: 1h
 
 # Enable logging
 logger:
